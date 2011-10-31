@@ -38,26 +38,26 @@
                                 'name':'关于',
                                 'photo':[],
                                 'part':[
-                                    {'title':'五月天追梦的剧情简介   · · · · · · ',
-                                    'text':'耗资新台币1亿元的3D电影《五月天3DNA》于2011年2月18日在台北电影公园举行开镜仪式，每回演唱会人数总是爆满的五月天，主唱阿信表示，以往抢不到摇滚区的歌迷，可藉由3D影片感受。 继知名摇滚天团U2的3D演唱会电影後，亚洲第1部3D演唱会电影《五月天3DNA》将在2011年9月上映，同样耗资上亿元的《赛德克·巴莱》也将在9月上映，《五月天3DNA》电影出品公司相信音乐与得艺国际媒体表示，这2部片的观众属性不同，不怕和《赛德克·巴莱》打对台。《五月天3DNA》内容透过两岸歌迷之间各个不同温馨感人与励志的小故事，巧妙串起《五月天变形DNA演唱会》的表演，还找来五月天的师兄任贤齐、师姐刘若英客串演出，阿信笑说，“只能用写歌来还人情。《五月天3DNA》全片使用3D立体实际拍摄，第1次参与3D拍摄的任贤齐说，3D拍摄要求精准的画面，一个镜头得重拍好几'
+                                    {'title':'团队简介',
+                                    'text':'我们是一个致力于互联网技术研究的团队，希望通过互联网技术帮助人们更好地生活'
                                     },
-                                    {'title':'給五星的你全家都是五月天粉絲。',
-                                    'text':'有关电影本身： 观影会看了八分钟的片段，是《（还你自由版）温柔》的那部分D.N.A。 看到蓝色挥舞的荧光棒就让人鼻子一酸。脑袋里是那句话“如果你想要一场雪，那么我就给你一场雪”。后来翩飞逼真的“雪”，真的要让人落下泪来。像是又回到了看演唱会的当天。眼睛舍不得眨。 因为是3D的原因，五个人的形象屹立的要命，阿'
+                                    {'title':'成员',
+                                    'text':'目前由@timger 和 @69devil 组成'
                                     },
                                     ]},
                     'works' : {
                         'name':'作品',
                         'part':[
-                        {'name':'newbaalab','url':'http://www.baidu.com','url_name':'newbeelab','introduct':'这是一个团队的个人主页，今天我必须告诉你一个事实，其实我是一个卧底，呐，这是我的卧底证。快来看看你的卧底身份吧','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://postmachina.com/images/work/amazon_1.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'hibox','url':'http://hibox.me','url_name':'hibox','introduct':'一个商品展示网站，可以下单订货','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://postmachina.com/images/work/amazon_1.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
                         {'name':'','url':'','introduct':'','url_name':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
-                        {'name':'newbaalab','url':'http://www.baidu.com','url_name':'newbeelab','introduct':'这是一个团队的个人主页，今天我必须告诉你一个事实，其实我是一个卧底，呐，这是我的卧底证。快来看看你的卧底身份吧','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://postmachina.com/images/work/amazon_1.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
-                        {'name':'','url':'','introduct':'','url_name':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']}
+                        {'name':'果味','url':'http://guowee.timger.info','url_name':'guowee','introduct':' 一个挖掘和分享分享iphone app的网站.','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://postmachina.com/images/work/amazon_1.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'artdna','url':'http://artdna.me','introduct':'一个很酷的针对于艺术家的个人主页设计网站','url_name':'artdna','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']}
                         ]},
                     'services':{
                         'name':'提供的服务',
                         'part':[
-                        {'name':'网站建站[企业网站，个人网站的建站服务]','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
-                        {'name':'网站维护[已有网站的故障处理，和服务器的维护]','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'网站建站','url':'','introduct':'各种企业网站和个人网站的创建','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'网站维护','url':'','introduct':'帮你解决你的服务器故障,维护服务器','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
                         ]},
                     'recruit':{
                             'name':'招募',
