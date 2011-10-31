@@ -3,6 +3,11 @@
 	http://postmachina.com/css/main.css
 */
 
+.contact-p{width: auto;
+height: auto;
+background: url(../images/home_bg.gif) no-repeat 0 0;
+text-indent: 2px;
+}
 * {
 	margin: 0;
 	padding: 0;

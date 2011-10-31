@@ -18,8 +18,8 @@
             {       'logo':'http://commondatastorage.googleapis.com/newbeelab/homepage/logo.png',
                     'title':'',
                     'footer':{
-                                'copyright':'Copyright © 2007-2008 by Postmachina',
-                                'info':'All rights reserved. All materials on this site are copyrighted and may not be used in any way other than personal use unless authorized or stated otherwise by Postmachina. Reproduction, modification or storage, either digital or analogue are strictly prohibited without written permission.'}, 
+                                'copyright':'Copyright © 2007-2011 @timger',
+                                'info':'newbeelab 团队主页'}, 
                     'mode':'index',
                     'background':'#fba922',
                     'aunforce':'#ffffff',
@@ -56,8 +56,8 @@
                     'services':{
                         'name':'提供的服务',
                         'part':[
-                        {'name':'','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
-                        {'name':'','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'网站建站[企业网站，个人网站的建站服务]','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
+                        {'name':'网站维护[已有网站的故障处理，和服务器的维护]','url':'','introduct':'','photos':['http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg','http://t.douban.com/img/files/file-1314708723.jpg']},
                         ]},
                     'recruit':{
                             'name':'招募',
@@ -71,6 +71,7 @@
                                 'email':'admin@newbeelab.com',
                                 'map':'',
                                 'introduct':'',
+                                'user':'newbeelab',
                     }
                 },
         
@@ -95,9 +96,9 @@
                 <li><a href="#p_index" class="page" mode="index" idstyle="home" title="">Home</a></li>
                 <li><a href="#p_profile" class="page" mode='profile'idstyle="profile" >Profile</a></li>
                 <li><a href="#p_works" class="page" mode="works" idstyle="identities" title="">Works</a></li>
-                <li><a href="#p_services" class="page" mode='service' idstyle="services" title="">Service</a></li>
-                <li><a href="#p_recruit" class="page" mode="recruit" idstyle="" title="">Recruit</a></li>
-                <li><a href="#p_contact" class="contact" mode="contact" idstyle="contact" title="">Contact</a></li>
+                <li><a href="#p_services" class="page" mode='services' idstyle="services" title="">Service</a></li>
+                <!--<li><a href="#p_recruit" class="page" mode="recruit" idstyle="" title="">Recruit</a></li>-->
+                <li><a href="#p_contact" class="page" mode="contact" idstyle="contact" title="">Contact</a></li>
             </ul> 
         </div>
         <script id="tmpl_sidebar" type="text/x-jquery-tmpl"> 
@@ -106,9 +107,9 @@
                 <li><a href="#p_index" class="page" mode="index" idstyle="home" title="">${index.name}</a></li>
                 <li><a href="#p_profile" class="page" mode='profile' idstyle="profile" >${profile.name}</a></li>
                 <li><a href="#p_works" class="page" mode="works" title="" idstyle="identities">${works.name}</a></li>
-                <li><a href="#p_services" class="page" mode='service' title="" idstyle="services">${service.name}</a></li>
-                <li><a href="#p_recruit" class="page" mode="recruit" title="" idstyle="">${recruit.name}</a></li>
-                <li><a href="#p_contact" class="contact" mode="contact" title="" idstyle="contact">${contact.name}</a></li>
+                <li><a href="#p_services" class="page" mode='services' title="" idstyle="services">${services.name}</a></li>
+               <!-- <li><a href="#p_recruit" class="page" mode="recruit" title="" idstyle="recruit">${recruit.name}</a></li>-->
+                <li><a href="#p_contact" class="page" mode="contact" title="" idstyle="contact">${contact.name}</a></li>
             </ul> 
         </script>
 
@@ -163,58 +164,20 @@
                 {{/each}}
             {{/if}}
             {{if mode == "recruit"}}
+            <p></p>
             {{/if}}
             {{if mode == "contact"}}
                 <h1>${contact.title}</h1>
-                <p>Postmachina</p>
+                <p style="width: auto;height: auto;text-indent: 2px;">${contact.user}</p>
                 
-                <p>
+                <p style="width: auto;height: auto;text-indent: 2px;">
                 ${contact.address}
                 </p>
-                <p><a href="${contact.map}">View on Map</a></p>
-
-                <p>Phone: ${contact.phone}<br>
+                <p style="width: auto;height: auto;text-indent: 2px;"><!--<a href="${contact.map}">View on Map</a>--></p>
+                <p style="width: auto;height: auto;text-indent: 2px;"><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.hk/maps?client=ubuntu&amp;channel=cs&amp;q=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E5%A4%A7%E5%85%B4%E5%8C%BA%E5%85%B4%E7%9B%9B%E8%A1%97187%E5%8F%B7%E9%99%A2&amp;ie=UTF8&amp;hq=&amp;hnear=Xing+Sheng+Jie,+DaXingQu,+BeiJingShi,+China&amp;gl=hk&amp;t=m&amp;vpsrc=6&amp;brcurrent=3,0x0:0x0,0&amp;ll=39.792213,116.518968&amp;spn=0.002424,0.004823&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.hk/maps?client=ubuntu&amp;channel=cs&amp;q=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E5%A4%A7%E5%85%B4%E5%8C%BA%E5%85%B4%E7%9B%9B%E8%A1%97187%E5%8F%B7%E9%99%A2&amp;ie=UTF8&amp;hq=&amp;hnear=Xing+Sheng+Jie,+DaXingQu,+BeiJingShi,+China&amp;gl=hk&amp;t=m&amp;vpsrc=6&amp;brcurrent=3,0x0:0x0,0&amp;ll=39.792213,116.518968&amp;spn=0.002424,0.004823&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small></p>
+                <p style="width: auto;height: auto;text-indent: 2px;">Phone: ${contact.phone}<br>
                 Mail: <a class="email" href="mailto:${contact.email}">${contact.email}</a></p>
                 
-                <h2>Send an email</h2>
-                <form action="/contact" method="post" accept-charset="utf-8">
-                    
-                    <div class="left">
-                        <p>
-                            <label for="name">Name:</label><br>
-                            <input type="text" name="name" id="name" value="">
-                        </p>
-                        <p>
-                            <label for="email">Email:</label><br>
-                            <input type="text" name="email" id="email" value="">
-                        </p>
-                        <p>
-                            <label for="subject">Subject:</label><br>
-                            <input type="text" name="subject" id="subject" value="">
-                        </p>   
-                        
-                         <p>
-                             <input class="button" type="submit" value="Verstuur">
-                         </p>             
-                    </div>
-                    <div class="right">
-                        <p>
-                             <label for="message">Message:</label><br>
-                             <textarea name="message" id="message" rows="8" cols="40"></textarea>
-                         </p>
-                    </div>
- 
-                </form>
-                <!-- 
-                <h2>Would you like to work with us?</h2>
-                <p>
-                    We can’t promise anything, but we’re always looking for new talent to expand 
-                    our team with. We’re currently looking for talented freelance contacts. 
-                    If you’re interested send your resume, portfolio and a list of things about your 
-                    personality and interests to <a class="email" href="mailto:jobs@postmachina.com">jobs@postmachina.com</a>. 
-                    We hope to hear from you soon!
-                </p>
-                -->
             {{/if}}
         </script>
 
@@ -241,13 +204,14 @@ $(document).ready(function(){
         $('.image_link').click(function(){
             var img_url=$(this).attr("href");
             var img = $(this).parent().parent().next().find('img');
-            img.fadeOut(400);
+            img.fadeOut(300);
             img.attr('src',img_url);
             img.fadeIn(600);
             $(this).parent().find('a').addClass('active');
             $(this).removeClass('active');
             return false;
-        })
+            });
+        return false;
 })
 })
 </script>
